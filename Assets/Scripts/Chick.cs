@@ -9,6 +9,10 @@ namespace Chickoggo {
 	/// </summary>
 	public class Chick : Fluff {
 
-		
+		protected override void SetDefaultValues() {
+			base.SetDefaultValues();
+
+			speed = 5f;
+		}
 	}
 }

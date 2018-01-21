@@ -39,6 +39,7 @@ namespace Chickoggo {
 			base.AwakeInit();
 
 			_agent = GetComponent<NavMeshAgent>();
+			_agent.speed = speed;
 		}
 
 		public virtual bool Possess(Controller newController) {
